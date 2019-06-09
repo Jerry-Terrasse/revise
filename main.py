@@ -1,4 +1,3 @@
-#!usr/bin/python3
 #coding=utf-8
 
 # Split a sentense by JieBa:
@@ -8,7 +7,7 @@ import jieba as jb
 import random as rdm
 
 
-file=open("materials.txt",'r')
+file=open("materials.txt",'r',encoding='utf-8')
 data=file.read().split('\n')
 file.close()
 cnt=int()
